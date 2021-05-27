@@ -1,0 +1,128 @@
+.navbar {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 100%;
+  padding: 50px;
+}
+
+.navigation {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+@media (max-width: 480px){
+  .navigation {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }}
+  
+  .container {
+   
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      align-items: center;
+
+  }
+  
+  .h1 {
+      font-weight: 400;
+      font:bolder;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .h2 {
+      font-weight: 400;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .p {
+      padding: 200px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  
+  .box-1 {
+      padding: 10px;
+      background: rgb(204, 204, 204);
+      width: 325px;
+      height: 300px;
+      margin-top:50px;
+      margin-left:5px;
+      margin-right:5px;
+      margin-bottom:20px;
+      align-content: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+    
+  .box-2 {
+      padding: 10px;
+      background: rgb(204, 204, 204);
+      width: 325px;
+      height: 300px;
+      margin-top:50px;
+      margin-left:5px;
+      margin-right:5px;
+      margin-bottom:20px;
+      align-content: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+    
+  .box-3 {
+      padding: 10px;
+      background: rgb(204, 204, 204);
+      width: 325px;
+      height: 300px;
+      margin-top:50px;
+      margin-left:5px;
+      margin-right:5px;
+      margin-bottom:20px;
+      align-content: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+    
+  .box-4 {
+      padding: 10px;
+      background: rgb(204, 204, 204);
+      width: 325px;
+      height: 300px;
+      margin-top:50px;
+      margin-left:5px;
+      margin-right:5px;
+      margin-bottom:20px;
+      align-content: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .table {
+      padding:50px;
+  }
+  
+  .table-responsive {
+      padding:100px;
+  }
+
+
+  .tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+   
+    font: 12px sans-serif;
+    color: white;
+    text-align: center;
+    background: #551aaf;
+
+  }
+  
+  .axisText {
+    font-family: sans-serif;
+    font-weight: bold;
+    fill: #551aaf;
+    text-anchor: middle;
+  }
+
+  .footer {
+    padding-top:100px;
+  }
+
+  .bar {
+    color
+  }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Wine Not?</title>
+
+    <!--Plotly-->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="navigation">
+            <a class="navbar-brand" href="index.html">Wine Not?</a>
+        </div>
+
+        <div class="buttons">
+          <a button class="btn" type="button" href="FILL JILLIANS JAVASCRIPT HERE">Home</button></a>
+          <a button class="btn" type="button" href="FILL KOUSTAV'S DATA HERE">Data</button></a>
+          <a button class="btn" type="button" value="Submit" onclick="myclick()">World Map</button></a>
+          <div id='mylink'></div>
+          <script type="text/javascript">
+            function myclick(){
+                var myLink = document.getElementById('mylink');
+                myLink.onclick = function(){
+                        var script = document.createElement("script");
+                        script.type = "text/javascript";
+                        script.src = "logic.js"; 
+                        document.getElementsByTagName("head")[0].appendChild(script);
+                        return false;
+                }
+                document.getElementById('mylink').click();
+            }
+            </script>
+          </div>
+  
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Wine Varietals
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" script src="redvarietals.html"></script>Red Varietal</a>
+                    <a class="dropdown-item" script src="whitevarietals.html"></script>>White Varietal</a>
+                    <a class="dropdown-item" script src="rosevarietals.html"></script>Rose Varietal</a>
+                    <a class="dropdown-item" script src="sparklingvarietals.html"></script>Sparkling</a>
+                  </div>
+          </div>
+        </nav>
+
+        <div id="scatter"></div>
+        <script src="rosevarietal.js"></script>
+
+
+<!-- Leaflet JS-->
+<script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+crossorigin=""></script>
+
+<!-- d3 JavaScript -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<script type="text/javascript" src="rosevarietal.js"></script>
+
+</body>
+</html>
